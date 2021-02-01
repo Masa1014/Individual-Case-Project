@@ -1,0 +1,136 @@
+body { background-color: #FFB6C1; color: #000000; margin: 0;
+  font-family:"游明朝","ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN","HG明朝E","ＭＳ Ｐ明朝","ＭＳ 明朝",serif;
+}
+
+header { background-color: #ffc0cb; margin: 0;
+        height: 180px;   background-image: url("https://d1f5hsy4d47upe.cloudfront.net/5c/5c56076203881d8c7cae752961ccf7f6_t.jpeg");
+        background-repeat: no-repeat; background-size: cover;
+}
+
+h1 { padding-top: 45px;
+    padding-left: 150px;
+    font-size: 5em;
+}
+
+nav { text-align: center;
+     font-weight: bold;
+	 font-size: 2.0em;
+	 padding-top: 10px;
+	 float: left;
+	 width: 200px;
+}
+nav a { text-decoration: none; }
+nav a:link { color: #000000; }
+nav a:visited { color: #FFF8DC; }
+nav a:hover { color: #CC9933; }
+
+nav ul { list-style-type: none;
+       padding-left: 0; }
+
+main { padding: 0 0 2em 0;
+      margin-left: 200px;
+	  background-color: #F0FFFF;
+	  display: block;
+}
+
+footer { background-color: #BC8F8F; font-size: .90em;
+         font-style: italic;
+	       text-align: center;
+}
+
+h2 {font-size: 3em; margin-top: auto;}
+
+p {font-size: 2em;}
+
+h3 {font-size: 2em;}
+
+table {width: 100%; height: 1100px; margin:auto; border-spacing: 30; }
+th, td {font-size: 2em; padding: 10px;}
+tr:nth-of-type(odd) {background-color: #FFB6C1;}
+
+main ul, main ol {font-size: 2.5em; padding-left: 80px;}
+
+
+#mountfuzi { background-image: url("https://travelzaurus.com/wp-content/uploads/2017/03/%E7%A5%9E%E7%A4%BE%EF%BC%96-1024x682.jpg");
+ background-size: 100% 100%; height: 450px;
+}
+
+#japanmap { background-image: url("https://www.sapporo.co.uk/wp-content/uploads/2019/06/alternative-map-of-japanese-prefectures.jpg?_t=1567517679");
+ background-size: 35% 100%; height:350px; background-repeat: no-repeat; text-align: right;
+ padding-right: 60px;
+}
+
+#season { background-image: url("https://puntomarinero.com/images/natural-resources-of-japan-description_2.jpg");
+ background-repeat: no-repeat; background-size: 35% 100%; height:350px; text-align: right; padding-right: 50px;
+}
+
+#tokyo { background-image: url("https://image.hldy-cdn.com/c/w=1336,h=826,g=5,a=2,r=auto,f=webp:auto/holiday_article_images/30408/30408.jpg?1598840879");
+ background-size: 65% 100%; height:350px; background-repeat: no-repeat;
+}
+
+#osaka { background-image: url("https://skyticket.jp/guide/wp-content/uploads/pixta_41665224_M-e1558921396982.jpg");
+ background-size: 65% 100%; height:350px; background-repeat: no-repeat;
+}
+
+#kinkaku { background-image: url("kinkaku.jpg");
+ background-size: 65% 100%; height:350px; background-repeat: no-repeat;
+}
+
+#ramen {background-image: url("ramen.jpg");
+background-size: 65% 100%; height:350px; background-repeat: no-repeat;
+}
+
+#udon {background-image: url("udon.jpg");
+background-size: 65% 100%; height:350px; background-repeat: no-repeat;
+}
+
+#tempura {background-image: url("tempura.jpg");
+background-size: 65% 100%; height:350px; background-repeat: no-repeat;
+}
+
+#ozigi { background-image: url("ozigi.jpg");
+ background-size: 35% 60%; height:500px; background-repeat: no-repeat; text-align: left;
+ padding-left: 420px; font-size: 0.8em;
+}
+
+#itadaki { background-image: url("itadaki.jpg");
+ background-size: 35% 60%; height:500px; background-repeat: no-repeat; text-align: left;
+ padding-left: 420px; font-size: 0.8em;
+}
+
+#shoes { background-image: url("shoes.jpg");
+ background-size: 35% 60%; height:500px; background-repeat: no-repeat; text-align: left;
+ padding-left: 420px; font-size: 0.8em;
+}
+
+#tip { background-image: url("tip.jpg");
+ background-size: 35% 60%; height:500px; background-repeat: no-repeat; text-align: left;
+ padding-left: 420px; font-size: 0.8em;
+}
+
+#btn{
+  margin:auto;
+  width:300px;
+  height:250px;
+  border-radius: 70%;
+  background:#EF454A;
+  text-align: center;
+  line-height:200px;
+  color:#fff;
+  font-size:42px;
+  font-weight: bold;
+  cursor:pointer;
+  opacity:0.9;
+  box-shadow:0 10px 0 #D1483E;
+  border:3px solid #D1483E;
+  user-select: none;
+}
+
+#btn:hover{
+  opacity:1;
+}
+
+#btn.pushed{
+  margin-top:36px;
+  box-shadow:0 4px 0 #D1483E;
+}
